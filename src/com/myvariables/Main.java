@@ -30,11 +30,11 @@ public class Main {
         System.out.println("Original number: " + number); // Output: Original number: 12
         System.out.println("Original string: " + str); // Output: Original string: String;
 
-        System.out.println("Method adds 1: " + add(new Main().numberC)); // Output: Method adds 1: 13
+        System.out.println("Method adds 1: " + add(new Main().numberC)); // Output: Method adds 1: 12
         System.out.println("Method modifies string: " + modify(new Main().strC)); // Output: Method modifies string: New String
 
-        System.out.println("Original number: " + new Main().numberC); // Output: Original number: 12
-        System.out.println("Original string: " + new Main().strC); // Output: Original string: String;
+        System.out.println("Original number: " + new Main().numberC); // Output: Original number: 11
+        System.out.println("Original string: " + new Main().strC); // Output: Original string: String  of Class;
 
     }
 
